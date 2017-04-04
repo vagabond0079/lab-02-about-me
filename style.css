@@ -1,7 +1,16 @@
 * {
   font-family: optima;
+  color: #333333;
 }
 
 body {
   background-color: #778899;
+}
+
+h1, h2, small {
+  color: #003333;
+}
+
+b {
+  color: #2F4F4F;
 }
