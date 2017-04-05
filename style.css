@@ -7,6 +7,22 @@ body {
   background-color: #778899;
 }
 
+h1, h2, p {
+  border: 0px dotted blue;
+  margin: 10px;
+}
+h1 {
+  font-size: 36px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+h1+p {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 h1, h2, small {
   color: #003333;
 }
