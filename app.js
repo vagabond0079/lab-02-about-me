@@ -1,5 +1,7 @@
 'use strict';
 
+window.onload = function(){
+
 var correctAnswers = 0;
 var userName = prompt('Hello there, thanks for visiting my "About Me" page. What\'s your name?');
 
@@ -113,4 +115,6 @@ if (correctAnswers > 5) {
 alert('Well ' + userName + ', you got ' + correctAnswers + ' right. I have to say, that\'s pretty darn good. Thanks for taking the time to get to know me better!');
 } else {
   alert('Well ' + userName + ', you got ' + correctAnswers + ' right. I hope you learned a bit more about me through this game. Thanks for taking the time!');
+}
+
 }
